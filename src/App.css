@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  height: 50vh;
+  width: 30%;
+}
+
+@media (max-width:1200px) {
+  .logo {
+    width: 50%;
+  }
+}
+
+@media (max-width:900px) {
+  .logo {
+    width: 60%;
+  }
+}
+
+@media (max-width:500px) {
+  .logo {
+    width: 70%;
+  }
+}
+

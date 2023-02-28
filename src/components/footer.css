@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+.foot {
+    width: 32%;
+    color: white;
+    line-height: 0.4;
+}
+
+.socials {
+    background-color: rgb(180, 182, 184);
+    width: 100%;
+    border-bottom-right-radius: 4.5px;
+    border-bottom-left-radius: 4.5px;
+}
+
+.logos {
+    padding: 15px 20px;
+}
+
+@media (max-width:1200px) {
+    .foot {
+        width: 50%;
+    }
+
+    .logos {
+        padding: 15px 40px;
+    }
+}
+
+@media (max-width:900px) {
+    .foot {
+        width: 60%;
+    }
+
+    .logos {
+        padding: 15px 40px;
+    }
+}
+
+@media (max-width:500px) {
+    .foot {
+        width: 70%;
+    }
+
+    .logos {
+        padding: 15px 10px;
+    }
+}
